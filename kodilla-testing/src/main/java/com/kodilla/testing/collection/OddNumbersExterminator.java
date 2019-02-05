@@ -6,7 +6,6 @@ import java.io.*;
 public class OddNumbersExterminator {
 
     private ArrayList<Integer> numbers;
-    private int ilosc;
     private ArrayList<Integer> evenNumber = new ArrayList<Integer>();
 
 
@@ -29,7 +28,7 @@ public class OddNumbersExterminator {
 
         }
     }
-    public int ilosc(){
+    public int getQuantity(){
         return evenNumber.size();
     }
 

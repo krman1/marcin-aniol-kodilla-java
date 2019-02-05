@@ -13,7 +13,7 @@ public class CollectionTestSuite {
 
     @After
     public void after() {
-        System.out.println("test zakończony");
+        System.out.println("Test zakończony");
     }
 
     @BeforeClass
@@ -35,7 +35,7 @@ public class CollectionTestSuite {
         System.out.println("Testowanie pustej tabeli");
         test.exterminate(numbers);
         //Then
-        Assert.assertEquals(0, test.ilosc());
+        Assert.assertEquals(0, test.getQuantity());
     }
 
     @Test
@@ -51,7 +51,7 @@ public class CollectionTestSuite {
         System.out.println("Testowanie selekcji liczb parzystych");
         test.exterminate(numbers);
         //Then
-        Assert.assertEquals(3, test.ilosc());
+        Assert.assertEquals(3, test.getQuantity());
     }
 }
 
