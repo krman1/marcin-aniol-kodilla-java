@@ -4,10 +4,11 @@ public class Circle implements Shape {
 
     String name;
 
-    public void getShapeName() {
+    public String getShapeName() {
 
         name = "Circle";
         System.out.println(name);
+        return name;
     }
 
     public void getField(){
@@ -15,7 +16,4 @@ public class Circle implements Shape {
         System.out.println("Pole powierzchni koła wynosi");
     }
 
-    public String getName() {
-        return name;
-    }
 }

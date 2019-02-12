@@ -4,10 +4,11 @@ public class Triangle implements Shape {
 
     String name;
 
-    public void getShapeName() {
+    public String getShapeName() {
 
         name = "Triangle";
         System.out.println(name);
+        return name;
     }
 
     public void getField(){
@@ -15,7 +16,4 @@ public class Triangle implements Shape {
         System.out.println("Pole powierzchni trójkąta wynosi");
     }
 
-    public String getName() {
-        return name;
-    }
 }

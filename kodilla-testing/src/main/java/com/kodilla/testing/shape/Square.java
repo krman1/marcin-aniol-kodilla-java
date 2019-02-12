@@ -4,10 +4,11 @@ public class Square implements Shape {
 
     String name;
 
-    public void getShapeName() {
+    public String getShapeName() {
 
         name = "Square";
         System.out.println(name);
+        return name;
     }
 
     public void getField(){
@@ -15,7 +16,4 @@ public class Square implements Shape {
         System.out.println("Pole powierzchni kwadratu wynosi ");
     }
 
-    public String getName() {
-        return name;
-    }
 }

@@ -59,7 +59,7 @@ public class ShapeCollectorTestSuite {
         //When
         colector.showFigures();
         //Then
-        Assert.assertEquals("Triangle", (((Triangle) shape).getName()));
+        Assert.assertEquals("Triangle", shape.getShapeName());
     }
 
 }
