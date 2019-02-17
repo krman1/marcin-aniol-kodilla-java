@@ -55,10 +55,12 @@ public class ForumUser {
     }
 
     public String getName() {
+
         return name;
     }
 
     public String getRealName() {
+
         return realName;
     }
 }
