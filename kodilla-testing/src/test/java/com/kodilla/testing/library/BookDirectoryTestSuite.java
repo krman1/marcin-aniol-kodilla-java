@@ -88,5 +88,59 @@ public class BookDirectoryTestSuite {
             assertEquals(0, theListOfBooks10.size());
             verify(libraryDatabaseMock, times(0)).listBooksWithCondition(anyString());
         }
+    @Test
+    public void testlistBooksInHandsOf0Books() {
+        // Given
+        LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
+        BookLibrary bookLibrary = new BookLibrary(libraryDatabaseMock);
+        List<Book> resultListOf0Books = new ArrayList<Book>();
+        LibraryUser user = new LibraryUser("Jan", "Kowalski", "84081515137");
+
+        when(libraryDatabaseMock.listBooksInHandsOf(user)).thenReturn(resultListOf0Books);
+
+        // When
+        List<Book> theListOfBooks0 = bookLibrary.listBooksInHandsOf(user);
+
+        // Then
+
+        assertEquals(0, theListOfBooks0.size());
+
+    }
+    @Test
+    public void testlistBooksInHandsOf1Books() {
+        // Given
+        LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
+        BookLibrary bookLibrary = new BookLibrary(libraryDatabaseMock);
+        List<Book> resultListOf1Books = generateListOfNBooks(1);
+        LibraryUser user = new LibraryUser("Jan", "Kowalski", "84081515137");
+
+        when(libraryDatabaseMock.listBooksInHandsOf(user)).thenReturn(resultListOf1Books);
+
+        // When
+        List<Book> theListOfBooks1 = bookLibrary.listBooksInHandsOf(user);
+
+        // Then
+
+        assertEquals(1, theListOfBooks1.size());
+
+    }
+    @Test
+    public void testlistBooksInHandsOf5Books() {
+        // Given
+        LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
+        BookLibrary bookLibrary = new BookLibrary(libraryDatabaseMock);
+        List<Book> resultListOf5Books = generateListOfNBooks(5);
+        LibraryUser user = new LibraryUser("Jan", "Kowalski", "84081515137");
+
+        when(libraryDatabaseMock.listBooksInHandsOf(user)).thenReturn(resultListOf5Books);
+
+        // When
+        List<Book> theListOfBooks5 = bookLibrary.listBooksInHandsOf(user);
+
+        // Then
+
+        assertEquals(5, theListOfBooks5.size());
+
+    }
     }
 
