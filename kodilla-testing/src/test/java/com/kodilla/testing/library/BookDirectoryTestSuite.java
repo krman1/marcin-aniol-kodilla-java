@@ -89,7 +89,7 @@ public class BookDirectoryTestSuite {
             verify(libraryDatabaseMock, times(0)).listBooksWithCondition(anyString());
         }
     @Test
-    public void testlistBooksInHandsOf0Books() {
+    public void testListBooksInHandsOf0Books() {
         // Given
         LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
         BookLibrary bookLibrary = new BookLibrary(libraryDatabaseMock);
@@ -107,7 +107,7 @@ public class BookDirectoryTestSuite {
 
     }
     @Test
-    public void testlistBooksInHandsOf1Books() {
+    public void testListBooksInHandsOf1Books() {
         // Given
         LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
         BookLibrary bookLibrary = new BookLibrary(libraryDatabaseMock);
@@ -125,7 +125,7 @@ public class BookDirectoryTestSuite {
 
     }
     @Test
-    public void testlistBooksInHandsOf5Books() {
+    public void testListBooksInHandsOf5Books() {
         // Given
         LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
         BookLibrary bookLibrary = new BookLibrary(libraryDatabaseMock);

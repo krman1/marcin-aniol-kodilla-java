@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BookLibrary {
-
     LibraryDatabase libraryDatabase;
 
     public BookLibrary(LibraryDatabase libraryDatabase) {
@@ -25,3 +24,4 @@ public class BookLibrary {
 
     }
 }
+
