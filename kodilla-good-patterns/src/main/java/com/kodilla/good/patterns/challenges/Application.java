@@ -6,8 +6,8 @@ public class Application {
 
         Data data = new Data();
         OrderRequest orderRequest = data.dateToOrder();
-        ProductOrderService productOrderService = new ProductOrderService(new InformationProcesor(), new MySchopOrderService(),
-                new MySchopOrderRepository());
+        ProductOrderService productOrderService = new ProductOrderService(new InformationProcesor(), new MyShopOrderService(),
+                new MyShopOrderRepository());
 
         productOrderService.process(orderRequest);
 

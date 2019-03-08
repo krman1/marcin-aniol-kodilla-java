@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MySchopOrderRepository implements OrderRepository {
+public class MyShopOrderRepository implements OrderRepository{
 
     private List<String> orders = new ArrayList<>();
 

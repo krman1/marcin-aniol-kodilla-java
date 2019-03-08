@@ -5,6 +5,6 @@ public class InformationProcesor implements InformationService {
     @Override
     public void inform(User user) {
 
-        System.out.println("Informacja o zamówienie wysłana do użytkownika");
+        System.out.println("Informacja o zamówieniu wysłana do użytkownika");
     }
 }
