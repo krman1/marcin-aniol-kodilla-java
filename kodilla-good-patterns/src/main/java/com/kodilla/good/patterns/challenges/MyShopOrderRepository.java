@@ -4,16 +4,20 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyShopOrderRepository implements OrderRepository{
+public final class MyShopOrderRepository implements OrderRepository{
 
-    private List<String> orders = new ArrayList<>();
+    private final List<String> orders = new ArrayList<>();
 
     @Override
     public void createOrder(User user, Product product, int Quantity, LocalDate orderDate) {
 
-        orders.add("Urzytkownik: " + user.getLogin()+ "w dniu" + orderDate + "zamówił: "
+        orders.add("Urzytkownik: " + user.getLogin()+ " w dniu " + orderDate + " zamówił: "
                 + product.getName() + " w ilości: " + Quantity );
 
 
+        orders.stream()
+                .forEach(System.out ::println);
+
     }
+
 }
