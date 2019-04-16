@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.spring.reader.ReaderTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-28T20:42:55" hostname="Angels" time="0.026">
+<testsuite name="com.kodilla.spring.reader.ReaderTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-04-16T20:30:42" hostname="Angels" time="0.022">
   <properties/>
-  <testcase name="testRead" classname="com.kodilla.spring.reader.ReaderTestSuite" time="0.026"/>
+  <testcase name="testRead" classname="com.kodilla.spring.reader.ReaderTestSuite" time="0.022"/>
   <system-out><![CDATA[Reading: The book number one
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
