@@ -1,5 +1,5 @@
 package com.kodilla.spring.portfolio;
-/*
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,13 +24,13 @@ public class BoardTestSuite {
         List<String> doneList = board.getDoneList().getTasks();
         List<String> inProgressList = board.getInProgressList().getTasks();
         doneList.add("Projekt - Smidowicza");
-        inProgressList.add("Projket - Dymka");
-        toDoList.add("Projket - Jar IV");
+        inProgressList.add("Projekt - Dymka");
+        toDoList.add("Projekt - Jar IV");
         //Then
-        Assert.assertEquals("Projekt - Smidowicza",toDoList.get(0));
-        Assert.assertEquals("Projket - Dymka",inProgressList.get(0));
-        Assert.assertEquals("Projket - Jar IV",doneList.get(0));
+        Assert.assertEquals("Projekt - Jar IV",toDoList.get(0));
+        Assert.assertEquals("Projekt - Dymka",inProgressList.get(0));
+        Assert.assertEquals("Projekt - Smidowicza",doneList.get(0));
 
     }
 }
-*/
+

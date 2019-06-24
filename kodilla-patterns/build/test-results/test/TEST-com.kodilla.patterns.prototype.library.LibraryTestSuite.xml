@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.patterns.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-04-16T20:30:59" hostname="Angels" time="0.018">
+<testsuite name="com.kodilla.patterns.prototype.library.LibraryTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T17:11:16" hostname="Angels" time="0.007">
   <properties/>
-  <testcase name="testGetBooks" classname="com.kodilla.patterns.prototype.library.LibraryTestSuite" time="0.018"/>
+  <testcase name="testGetBooks" classname="com.kodilla.patterns.prototype.library.LibraryTestSuite" time="0.007"/>
   <system-out><![CDATA[Library [Library 1]
-Book{title='Morgan Walsh', author='Obliteration of heaven', publicationDate=2001-05-13}
-Book{title='Phoebe Pearson', author='Slaves of dreams', publicationDate=2012-05-12}
-Book{title='Aimee Murphy', author='Rejecting the night', publicationDate=2015-04-15}
 Book{title='Giancarlo Guerrero', author='Enemies of eternity', publicationDate=2009-04-17}
 Book{title='Madelynn Carson', author='Unity without duty', publicationDate=2007-11-01}
 Book{title='Dylan Murphy', author='Wolf of the mountain', publicationDate=2010-11-24}
+Book{title='Morgan Walsh', author='Obliteration of heaven', publicationDate=2001-05-13}
+Book{title='Phoebe Pearson', author='Slaves of dreams', publicationDate=2012-05-12}
+Book{title='Aimee Murphy', author='Rejecting the night', publicationDate=2015-04-15}
 
 Library [Library 2]
-Book{title='Morgan Walsh', author='Obliteration of heaven', publicationDate=2001-05-13}
-Book{title='Phoebe Pearson', author='Slaves of dreams', publicationDate=2012-05-12}
-Book{title='Aimee Murphy', author='Rejecting the night', publicationDate=2015-04-15}
 Book{title='Giancarlo Guerrero', author='Enemies of eternity', publicationDate=2009-04-17}
 Book{title='Madelynn Carson', author='Unity without duty', publicationDate=2007-11-01}
 Book{title='Dylan Murphy', author='Wolf of the mountain', publicationDate=2010-11-24}
+Book{title='Morgan Walsh', author='Obliteration of heaven', publicationDate=2001-05-13}
+Book{title='Phoebe Pearson', author='Slaves of dreams', publicationDate=2012-05-12}
+Book{title='Aimee Murphy', author='Rejecting the night', publicationDate=2015-04-15}
 
 Library [Library 3]
-Book{title='Ryan Talley', author='Gangsters and kings', publicationDate=2007-05-22}
-Book{title='Morgan Walsh', author='Obliteration of heaven', publicationDate=2001-05-13}
-Book{title='Phoebe Pearson', author='Slaves of dreams', publicationDate=2012-05-12}
-Book{title='Aimee Murphy', author='Rejecting the night', publicationDate=2015-04-15}
 Book{title='Giancarlo Guerrero', author='Enemies of eternity', publicationDate=2009-04-17}
 Book{title='Madelynn Carson', author='Unity without duty', publicationDate=2007-11-01}
 Book{title='Dylan Murphy', author='Wolf of the mountain', publicationDate=2010-11-24}
+Book{title='Morgan Walsh', author='Obliteration of heaven', publicationDate=2001-05-13}
+Book{title='Phoebe Pearson', author='Slaves of dreams', publicationDate=2012-05-12}
+Book{title='Aimee Murphy', author='Rejecting the night', publicationDate=2015-04-15}
+Book{title='Ryan Talley', author='Gangsters and kings', publicationDate=2007-05-22}
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

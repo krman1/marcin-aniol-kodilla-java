@@ -56,13 +56,13 @@ public class CompanyDaoTestSuite {
         Assert.assertNotEquals(0, greyMatterId);
 
         //CleanUp
-        try {
-            companyDao.deleteById(softwareMachineId);
-            companyDao.deleteById(dataMaestersId);
-            companyDao.deleteById(greyMatterId);
-        } catch (Exception e) {
+//        try {
+//            companyDao.deleteById(softwareMachineId);
+//            companyDao.deleteById(dataMaestersId);
+//            companyDao.deleteById(greyMatterId);
+//        } catch (Exception e) {
             //do nothing
-        }
+        //}
     }
 
     @Test
@@ -87,12 +87,12 @@ public class CompanyDaoTestSuite {
         Assert.assertEquals(1, employeesWithLastName.size());
 
         //CleanUp
-        employeeDao.deleteById(johnSmithId);
+        //employeeDao.deleteById(johnSmithId);
 
     }
 
     @Test
-    public void testQueriesFindBySSubstring() {
+    public void testQueriesFindBySubstring() {
 
         //Given
         Employee johnSmith = new Employee("John", "Smith");
@@ -113,7 +113,7 @@ public class CompanyDaoTestSuite {
         Assert.assertEquals(1, companiesWithThreeFirsLetters.size());
 
         //CleanUp
-        companyDao.deleteById(softwareMachinesId);
+       // companyDao.deleteById(softwareMachinesId);
     }
 
 }

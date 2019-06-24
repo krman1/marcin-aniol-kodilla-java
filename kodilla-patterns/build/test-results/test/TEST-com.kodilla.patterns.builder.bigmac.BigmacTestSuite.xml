@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.patterns.builder.bigmac.BigmacTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-04-16T20:30:59" hostname="Angels" time="0.015">
+<testsuite name="com.kodilla.patterns.builder.bigmac.BigmacTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T17:11:15" hostname="Angels" time="0.005">
   <properties/>
-  <testcase name="testBigmacNew" classname="com.kodilla.patterns.builder.bigmac.BigmacTestSuite" time="0.015"/>
+  <testcase name="testBigmacNew" classname="com.kodilla.patterns.builder.bigmac.BigmacTestSuite" time="0.005"/>
   <system-out><![CDATA[Bigmac{bun='sezame', burgers=2, sauce='standard', ingredients=[becon, onion]}
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

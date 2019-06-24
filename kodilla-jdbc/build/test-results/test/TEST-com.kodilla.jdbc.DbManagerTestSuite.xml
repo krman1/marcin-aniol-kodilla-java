@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.jdbc.DbManagerTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-04-16T20:30:54" hostname="Angels" time="0.741">
+<testsuite name="com.kodilla.jdbc.DbManagerTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T17:11:11" hostname="Angels" time="0.784">
   <properties/>
-  <testcase name="testSelectUsers" classname="com.kodilla.jdbc.DbManagerTestSuite" time="0.736"/>
-  <testcase name="testConnect" classname="com.kodilla.jdbc.DbManagerTestSuite" time="0.001"/>
-  <testcase name="testSelectUsersAndPosts" classname="com.kodilla.jdbc.DbManagerTestSuite" time="0.003"/>
+  <testcase name="testSelectUsers" classname="com.kodilla.jdbc.DbManagerTestSuite" time="0.773"/>
+  <testcase name="testConnect" classname="com.kodilla.jdbc.DbManagerTestSuite" time="0.0"/>
+  <testcase name="testSelectUsersAndPosts" classname="com.kodilla.jdbc.DbManagerTestSuite" time="0.01"/>
   <system-out><![CDATA[1, John, Smith
 2, Zachary, Lee
 3, Stephanie, Kovalsky

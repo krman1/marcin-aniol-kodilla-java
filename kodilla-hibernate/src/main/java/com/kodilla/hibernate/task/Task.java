@@ -1,6 +1,7 @@
 package com.kodilla.hibernate.task;
 
 import com.kodilla.hibernate.tasklist.TaskList;
+//import com.sun.istack.internal.NotNull;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

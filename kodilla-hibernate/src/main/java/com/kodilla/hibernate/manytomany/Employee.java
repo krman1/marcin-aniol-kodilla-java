@@ -1,7 +1,5 @@
 package com.kodilla.hibernate.manytomany;
-
-import com.sun.jmx.remote.internal.ArrayQueue;
-
+import org.springframework.data.jpa.repository.Query;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
