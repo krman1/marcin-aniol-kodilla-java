@@ -12,8 +12,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.transaction.Transactional;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 @Transactional
@@ -32,24 +30,41 @@ public class FacadeTest {
 	public void findCompanyTest() {
 		//Given
 		
-		Company newCompany = new Company("kodilla");
-		Employee newEmployee = new Employee("Kodilla", "User");
-		newCompany.getEmployees().add(newEmployee);
-		newEmployee.getCompanies().add(newCompany);
+		Company kodilla = new Company("kodilla");
+		Employee kodillaUser = new Employee("Kodilla","User");
+		kodilla.getEmployees().add(kodillaUser);
+		kodillaUser.getCompanies().add(kodilla);
 		
 		//when
-		companyDao.save(newCompany);
-		int companyID = newCompany.getId();
-		List<Company> resultSet = facade.findCompanyByPartOfName("kodi");
+		companyDao.save(kodilla);
+		int companyID = kodilla.getId();
+		List<Company> result = facade.findCompanyByPartOfName("kodi");
 		
 		//Then
-		Assert.assertEquals(1, resultSet.size());
+		Assert.assertEquals(1, result.size());
 		
 		//CleanUP
-		companyDao.delete(newCompany);
+		//companyDao.delete(newCompany);
 		
 	}
 	
+	@Test
+	public void getEmployeesByNamePartTest() {
+		//Given
+		Employee kodillaUser = new Employee("Kodilla","User");
+		
+		//when
+		employeeDao.save(kodillaUser);
+		List<Employee> result = facade.findEmployeeByPartOfName("odil");
+		int employeeToDeleteid = kodillaUser.getId();
+		
+		//Then
+		Assert.assertEquals(1,result.size());
+		Assert.assertEquals("odil",result.get(0).getLastname());
+		
+		//CleanUp
+		//employeeDao.delete(employeeToDeleteid);
+	}
 }
 
 
