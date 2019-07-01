@@ -2,8 +2,8 @@ package com.kodilla.stream.invoice.simple;
 
 public final class SimpleProduct {
 
-    private final String productName;
-    private final double productPrice;
+    private  String productName;
+    private  double productPrice;
 
     public SimpleProduct(String productName, double productPrice) {
         this.productName = productName;
@@ -17,7 +17,8 @@ public final class SimpleProduct {
     public double getProductPrice() {
         return productPrice;
     }
-
+    
+    
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

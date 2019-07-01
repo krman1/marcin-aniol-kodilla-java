@@ -9,4 +9,6 @@ include 'com.kodilla.spring1'
 include 'kodilla-spring'
 include 'kodilla-patterns'
 include 'kodilla-jdbc'
+include 'kodilla-testing2'
+include 'kodilla-testing2'
 
